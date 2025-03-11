@@ -31,5 +31,20 @@ int main() {
         rainha++;
     
     }while (rainha <= 8);
+
+    int movimentoCavalo = 1; 
+    //o cavalo se movimenta 2 casas para baixo e 1 casa para a esquerda
+    printf("Movimentacao do cavalo...\n");
+
+    while (movimentoCavalo--) //loop externo
+    {
+        for (int i = 0; i < 2; i++) //loop interno
+        {
+            printf("Baixo\n");
+        }
+
+        printf("Esquerda\n");
+        
+    }
     return 0;
 }
